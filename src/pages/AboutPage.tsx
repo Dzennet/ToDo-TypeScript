@@ -7,10 +7,10 @@ const AboutPage: React.FunctionComponent = () => {
     <>
       <h3>Информация</h3>
       <p>
-        Этот ToDo List был сделан для удобства планирования и распределения дел
+        Это приложение было сделано для удобства планирования и распределения дел
         в течение дня. Приложение написано с использованием React и TypeScript.{" "}
-        <br /> Ссылка на все проекты: 
-        <a href="https://github.com/Dzennet"> https://github.com/Dzennet</a>
+        <br /> Остальные проекты
+        <a href="https://github.com/Dzennet"> находятся по этой ссылке</a>
       </p>
       <button className="btn" onClick={() => history.push("/")}>
         Обратно к списку дел
